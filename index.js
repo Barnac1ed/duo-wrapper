@@ -62,7 +62,7 @@ Duo.prototype.getStreak = function () {
 }
 
 /**
- * Gets the level of the user
+ * Gets the name of the user
  * @returns {string}
 */
 Duo.prototype.getName = function () {

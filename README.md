@@ -21,6 +21,56 @@ duo.getStreak().then(res => {
 });
 ```
 
+### Methods
+**Get User's Streak**
+```js
+duo.getStreak().then(res => { ... });
+```
+**Get User's Name**
+```js
+duo.getname().then(res => { ... });
+```
+**Get User's XP**
+```js
+duo.getXp().then(res => { ... });
+```
+**Get User's Current Language**
+```js
+duo.getCurrentLang().then(res => { ... });
+```
+**Checks If The User Has Premium**
+```js
+duo.isPlus().then(res => { ... });
+```
+**Checks If The User Has Mod Perms**
+```js
+duo.isMod().then(res => { ... });
+```
+**Get User's Courses**
+```js
+duo.getCourses().then(res => { ... });
+```
+**Get User's Motivation**
+```js
+duo.getMotivation().then(res => { ... });
+```
+**Get User's Total Crowns**
+```js
+duo.getTotalCrowns().then(res => { ... });
+```
+**Get User's Native Language**
+```js
+duo.getNativeLang().then(res => { ... });
+```
+**Get User's Achievements**
+```js
+duo.getAchievements().then(res => { ... });
+```
+**Checks If The User Has A Verified Email**
+```js
+duo.isEmailVerified().then(res => { ... });
+```
+
 #### License
 ```txt
 MIT License
